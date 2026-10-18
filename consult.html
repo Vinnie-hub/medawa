@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Consult a pharmacist · Medawa</title>
+<meta name="description" content="Medawa, an online pharmacy and healthcare store. Book a consultation with a licensed pharmacist.">
+<meta name="theme-color" content="#0b7a45">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:title" content="Consult a pharmacist · Medawa">
+<meta property="og:description" content="Medawa, an online pharmacy and healthcare store. Book a consultation with a licensed pharmacist.">
+<meta property="og:image" content="assets/icon-512.png">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/theme.js"></script>
+</head>
+<body data-page="consult">
+<div id="site-header"></div>
+<main id="app"><section class="page-head"><div class="container"><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Consult</span></nav><h1>Consult a pharmacist</h1><p>Free advice from a licensed pharmacist, or book a doctor for a telehealth visit.</p></div></section>
+<div class="container page"><form class="card form-card" data-success="Booking received" data-detail="We’ll confirm your appointment by SMS." data-next="index.html" data-next-label="Back to home">
+<h3>Book a consultation</h3>
+<div class="row2"><div class="field"><label class="f" for="n">Full name</label><input id="n" required autocomplete="name"></div><div class="field"><label class="f" for="p">Phone</label><input id="p" type="tel" required autocomplete="tel"></div></div>
+<div class="row2"><div class="field"><label class="f" for="t">Service</label><select id="t"><option>Pharmacist consultation</option><option>Doctor (telehealth)</option><option>Chronic care review</option><option>Family planning</option></select></div><div class="field"><label class="f" for="d">Preferred date</label><input id="d" type="date" required></div></div>
+<div class="field"><label class="f" for="h">What can we help with?</label><textarea id="h" style="min-height:100px"></textarea></div>
+<button class="btn btn-block">Book now</button></form></div></main>
+<div id="site-footer"></div>
+<noscript><p style="padding:20px;text-align:center">Medawa needs JavaScript to show products and the cart. Please enable it.</p></noscript>
+<script src="js/data.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/layout.js"></script>
+</body>
+</html>
